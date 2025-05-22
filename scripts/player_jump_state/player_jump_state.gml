@@ -9,6 +9,10 @@ function player_jump_state(){
 	//check state
 	if on_ground(){
 		if hsp != 0 state = states.WALK else state = states.IDLE;
+		//creat dust if landing
+		if vsp > 0 {
+			instance_create_layer(x, y, "Dust", o_player_dust_land);
+		}
 	}
 
 	if attack {
