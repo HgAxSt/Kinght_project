@@ -23,6 +23,12 @@ function player_idle_state(){
 
 	}
 	
+	if down{
+		state = states.CROUCH;
+		hsp = 0;
+	}
+	
+	
 	//apply movement
 	collision();
 

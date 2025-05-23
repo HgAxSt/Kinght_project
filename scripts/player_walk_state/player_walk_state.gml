@@ -38,6 +38,11 @@ if t1 == VOID or t2 == VOID{
 
 	}
 	
+	if down{
+		state = states.CROUCH;
+		hsp = 0;
+	}
+	
 	//apply movement
 	collision();
 
