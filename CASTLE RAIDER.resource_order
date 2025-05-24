@@ -1,9 +1,11 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"o_camera","order":3,"path":"objects/o_camera/o_camera.yy",},
     {"name":"o_game","order":2,"path":"objects/o_game/o_game.yy",},
     {"name":"o_player_dust_jump","order":2,"path":"objects/o_player_dust_jump/o_player_dust_jump.yy",},
     {"name":"o_player_dust_land","order":1,"path":"objects/o_player_dust_land/o_player_dust_land.yy",},
+    {"name":"rm_init","order":1,"path":"rooms/rm_init/rm_init.yy",},
     {"name":"anim","order":3,"path":"scripts/anim/anim.yy",},
     {"name":"block_check","order":9,"path":"scripts/block_check/block_check.yy",},
     {"name":"calc_movement","order":1,"path":"scripts/calc_movement/calc_movement.yy",},

@@ -38,11 +38,13 @@
   },
   "name":"CASTLE RAIDER",
   "resources":[
+    {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},},
     {"id":{"name":"o_player_dust_jump","path":"objects/o_player_dust_jump/o_player_dust_jump.yy",},},
     {"id":{"name":"o_player_dust_land","path":"objects/o_player_dust_land/o_player_dust_land.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"rm_00","path":"rooms/rm_00/rm_00.yy",},},
+    {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"anim","path":"scripts/anim/anim.yy",},},
     {"id":{"name":"block_check","path":"scripts/block_check/block_check.yy",},},
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},},
@@ -76,6 +78,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_00","path":"rooms/rm_00/rm_00.yy",},},
   ],
   "templateType":null,

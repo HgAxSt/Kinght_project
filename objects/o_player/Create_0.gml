@@ -25,6 +25,8 @@ jump = 0;
 block = 0;
 jump_held = 0;
 
+//camera
+o_camera.follow = o_player;
 
 enum states {
 	IDLE,
